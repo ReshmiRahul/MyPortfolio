@@ -30,15 +30,15 @@ const About = () => {
                                     I'm Reshmi Harikumar Lathakumari, a full-stack
                                     developer with over four years of experience
                                     building innovative, scalable, and user-friendly
-                                    web applications. My expertise includes C#, Angular,
-                                    Python, and Django, along with a strong foundation
+                                    web applications. My expertise includes Python, C#, Angular,
+                                    and Django, along with a strong foundation
                                     in HTML, CSS, JavaScript, and modern frameworks like
                                     React.js and TypeScript.
                                     <br />
                                     <br />
                                     I have a passion for creating dynamic, responsive,
                                     and efficient software solutions. My favorite
-                                    technologies to work with include C#, Angular,
+                                    technologies to work with include Python, C#, Angular,
                                     Docker, and Kubernetes, but I’m always eager to
                                     explore new tools and frameworks. Currently, I’m
                                     expanding my skills by delving deeper into

@@ -18,9 +18,9 @@ const Projects = () => {
 
       <div className="py-12 px-8 flex flex-wrap gap-5 items-center justify-center">
       
-        <ProjectCard title='TobogganHills Mobile App' imgsrc={toboggan} tec='Flutter, Dart, MongoDB' desc='TobogganHills is a mobile application designed to help users discover and book tobogganing hill locations. Built using React Native and Firebase for data management.' git='https://github.com/ReshmiRahul/Toboggan-Hills-Mobile-Application.git' demo='https://appliedtechnology.humber.ca/shows/ict-capstone-projects-2024/thesis-projects/toboggan-hills-mobile-application.html' />
+        <ProjectCard title='TobogganHills Mobile App' imgsrc={toboggan} tec='Flutter, Dart, MongoDB' desc='TobogganHills is a mobile application designed to help users discover and book tobogganing hill locations. Built using React Native and Firebase for data management.' git='https://github.com/ReshmiRahul/Toboggan-Hills-Mobile-Application.git'/>
         
-        <ProjectCard title='Recyclia Waste Management System' imgsrc={Project6} tec='Angular, ASP.NET Core, C#' desc='Recyclia is a Waste Management System that facilitates admin-agency-customer interactions. Customers can request waste removal for e-waste or food waste, with agencies managing approvals and updates. Features include e-waste payouts, monthly food waste payments, a recycled product portal, and complaint handling by the admin.' git='https://github.com/ReshmiRahul/E-waste-Backend.git'  />
+        <ProjectCard title='Recyclia Waste Management System' imgsrc={Project6} tec='Angular, ASP.NET Core, C#' desc='Recyclia is a Waste Management System that facilitates admin-agency-customer interactions. Customers can request waste removal for e-waste or food waste, with agencies managing approvals and updates. Features include e-waste payouts, monthly food waste payments, a recycled product portal, and complaint handling by the admin.' git='https://github.com/ReshmiRahul/E-WasteManagement-System.git'/>
         
         <ProjectCard title='SkyCheck' imgsrc={Project2} tec='HTML, CSS, JavaScript, OpenWeather API' desc="SkyCheck is a weather application that allows users to check real-time weather and forecasts for various locations worldwide. Built with React and OpenWeather API for data fetching!" git='https://github.com/ReshmiRahul/SkyCheck--Weather-Checking-Application.git' />
 
@@ -38,7 +38,7 @@ const Projects = () => {
           tec='Ansible, Terraform' 
           desc="Developed an automation solution to provision and manage virtual machines using Ansible and Terraform. The project streamlined infrastructure deployment, enabling efficient and consistent VM creation with automated configurations and infrastructure as code principles." 
           git='https://github.com/ReshmiRahul/Automation-Project.git' 
-          demo='' 
+          
         />
       </div>
     </div>

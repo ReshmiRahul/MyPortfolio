@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className='text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter'>
                     <TextChange />
                 </h1>
-                <p className='text-sm md:text-2xl tracking-tight mt-3'>A passionate Full-Stack Developer from India. Reach out if you'd like to know more!</p>
+                <p className='text-sm md:text-2xl tracking-tight mt-3'>I am a Full-Stack Developer. Reach out if you'd like to know more!</p>
 
                 <div className='flex flex-col items-center mt-6 mb-4 md:mb-0'>
 

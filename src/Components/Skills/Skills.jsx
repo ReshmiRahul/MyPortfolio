@@ -10,23 +10,6 @@ const Skills = () => {
     <div id="Skills" className="p-10 md:mt-28 bg-gradient-to-b from-gray-900 via-gray-800 to-black">
       <h1 className="text-2xl md:text-4xl text-white font-bold text-center">Skills</h1>
       <div className="flex flex-wrap items-center justify-center md:w-5/5 mt-10 md:mt-24 gap-10">
-        
-        {/* C# Skill (Fallback icon used) */}
-        <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <FaCode color="#239120" size={50} />
-          </span>
-          <h1 className="text-white font-bold">C#</h1>
-        </div>
-
-        {/* Angular Skill */}
-        <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiAngular color="#DD0031" size={50} />
-          </span>
-          <h1 className="text-white font-bold">Angular</h1>
-        </div>
-
         {/* Python Skill */}
         <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
@@ -43,6 +26,23 @@ const Skills = () => {
           <h1 className="text-white font-bold">Django</h1>
         </div>
 
+        {/* C# Skill (Fallback icon used) */}
+        <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <FaCode color="#239120" size={50} />
+          </span>
+          <h1 className="text-white font-bold">C#</h1>
+        </div>
+
+        {/* Angular Skill */}
+        <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiAngular color="#DD0031" size={50} />
+          </span>
+          <h1 className="text-white font-bold">Angular</h1>
+        </div>
+
+        
         {/* React Skill */}
         <div className="flex flex-col items-center gap-3 hover:scale-110 duration-300">
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">

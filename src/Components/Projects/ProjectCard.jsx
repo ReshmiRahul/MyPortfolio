@@ -14,10 +14,7 @@ const ProjectCard = ({ title, tec, desc, imgsrc, demo, git }) => {
 
       <div className="p-2 flex items-center gap-5 justify-center">
 
-        <a href={demo} target='_blank'><button className='md:mt-10 text-white py-2 px-6 text-sm md:text-lg md:py-2 md:px-4 
-        hover:opacity-85 duration-300 hover:scale-105 font:semibold rounded-3xl bg-[#465697] flex items-center gap-2'>
-          Demo <BiLink /></button></a>
-
+        
         <a href={git} target='_blank'><button className='md:mt-10 text-white py-2 px-6 text-sm md:text-lg md:py-2 md:px-4 
         hover:opacity-85 duration-300 hover:scale-105 font:semibold rounded-3xl border-[#465697] border-t-2 border-b-2 flex 
         items-center gap-2'>Code <BiCode /></button></a>

@@ -11,8 +11,8 @@ const Footer = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_r827kbh', 'template_of2im07', form.current, {
-                publicKey: 'u7mIHzwd7itG66PkN',
+            .sendForm('service_imdex79', 'template_4phskdi', form.current, {
+                publicKey: '9Qlt14khkJ67-6sit',
             })
             .then(
                 () => {
